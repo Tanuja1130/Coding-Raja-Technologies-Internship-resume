@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+Online Resume Builder
+</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- User Registration Form -->
+<section id="registration">
+<h2>
+Register
+</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password"><br><br>
+<input type="submit" value="Register">
+</form>
+</section>
+<!-- Resume Templates Section -->
+<section id="templates">
+<h2>Choose a Template</h2>
+<div class="template-container">
+<div class="template" id="template-1">
+<h3>Template 1</h3>
+<button>Select</button>
+</div>
+<div class="template" id="template-2">
+<h3>Template 2</h3>
+<button>Select</button>
+</div>
+<!-- Add more templates here -->
+</div>
+</section>
+<!-- Resume Sections and Fields -->
+<section id="resume-builder">
+<h2>Build Your Resume</h2>
+<form>
+<!-- Contact Information Section -->
+<section id="contact-info">
+<h3>Contact Information</h3>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone"><br><br>
+</section>			
+<!-- Work Experience Section -->
+<section id="work-experience">
+<h3>Work Experience</h3>
+<label for="job-title">Job Title:</label>
+<input type="text" id="job-title" name="job-title"><br><br>
+<label for="company">Company:</label>
+<input type="text" id="company" name="company"><br><br>
+<label for="dates">Dates:</label>
+<input type="text" id="dates" name="dates"><br><br>
+<label for="description">Description:</label>
+<textarea id="description" name="description"></textarea><br><br>
+<!-- Add more work experience fields here -->
+</section>
+<!-- Education Section -->
+<section id="education">
+<h3>Education</h3>
+<label for="degree">Degree:</label>
+<input type="text" id="degree" name="degree"><br><br>
+<label for="institution">Institution:</label>
+<input type="text" id="institution" name="institution"><br><br>
+<label for="dates">Dates:</label>
+<input type="text" id="dates" name="dates"><br><br>
+<!-- Add more education fields here -->
+</section>
+<!-- Skills Section -->
+<section id="skills">
+<h3>Skills</h3>
+<label for="skill-1">Skill 1:</label>
+<input type="text" id="skill-1" name="skill-1"><br><br>
+<label for="skill-2">Skill 2:</label>
+<input type="text" id="skill-2" name="skill-2"><br><br>
+<!-- Add more skill fields here -->
+</section>
+<!-- Preview and Download Section -->
+<section id="preview-download">
+<h3>Preview and Download</h3>
+<button id="preview-btn">Preview</button>
+<button id="download-btn">Download</button>
+<button id="export-btn">Export</button>
+</section>
+</form>
+</section>
+<!-- Responsive Design -->
+<!-- Add media queries in styles.css to make the layout responsive -->
+<script src="script.js"></script>
+</body>
+</html>
+
